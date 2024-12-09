@@ -1,7 +1,7 @@
 name: Check and Build
 
 env:
-  kernel_repository: PixelExperience-Devices/kernel_xiaomi_sdm845
+  kernel_repository: jzc233/PEkernel_xiaomi_sdm845
   kernel_branch: fourteen
   device: ursa
   clang_version: r487747c
