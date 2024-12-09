@@ -3,10 +3,10 @@ name: Check and Build
 env:
   kernel_repository: jzc233/PEkernel_xiaomi_sdm845
   kernel_branch: fourteen
-  device: ursa
+  device: equuleus
   clang_version: r487747c
   defconfig: |
-    ursa_defconfig
+    equuleus_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
