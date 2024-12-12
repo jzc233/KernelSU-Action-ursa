@@ -1,8 +1,8 @@
 name: Check and Build
 
 env:
-  kernel_repository: jzc233/PEkernel_xiaomi_sdm845
-  kernel_branch: fourteen
+  kernel_repository: jzc233/NGK_android_kernel_xiaomi_sdm845
+  kernel_branch: t-caf-latest
   device: equuleus
   clang_version: r487747c
   defconfig: |
