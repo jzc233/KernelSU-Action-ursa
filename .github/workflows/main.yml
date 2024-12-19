@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: jzc233/NGK_android_kernel_xiaomi_sdm845
-  kernel_branch: t-caf-latest
-  device: equuleus
+  kernel_repository: jzc233/PEkernel_xiaomi_sdm845
+  kernel_branch: fourteen
+  device: dipper
   clang_version: r487747c
   defconfig: |
-    equuleus_defconfig
+    dipper_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
